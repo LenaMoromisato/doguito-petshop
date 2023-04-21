@@ -7,7 +7,7 @@ export function valida(input) {
 }
 
 const validadores = {
-    dataNascimento:input => validaDataNascimento(input);
+    dataNascimento:input => validaDataNascimento(input)
 }
 
 function validaDataNascimento(input) {
