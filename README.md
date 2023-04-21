@@ -4,6 +4,8 @@
 
 Conteúdo do curso:
 
-* Fazer validações com **required** e **type**;
-* Usar regras de regex com **pattern**;
+* Validações com **required** e **type**;
+* Regras de regex com **pattern**;
 * Mensagem customizada de erro com **title**;
+* **data attributes** para trabalhar com JS;
+* Função de validação mais genérica com **input**;
