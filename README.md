@@ -12,4 +12,6 @@ Conteúdo do curso:
 * Módulos com **type="module"**;
 * Mensagens de erro de validação dos campos com **DOM** e **ValidityState**;
 * Validação do CPF com números repetidos;
-* Cálculo da soma dos dígitos do CPF.
+* Cálculo da soma dos dígitos do CPF;
+* Requisição para a API ViaCEP;
+* Preenchimento automático do endereço pelo CEP.
