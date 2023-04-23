@@ -1,6 +1,6 @@
 # Curso JavaScript na Web: validação de formulários e HTML5 (Alura e Programa Desenvolve da Boticário)
 
-> Status do projeto: Em desenvolvimento
+> Status do projeto: Concluido
 
 Conteúdo do curso:
 
@@ -15,3 +15,4 @@ Conteúdo do curso:
 * Cálculo da soma dos dígitos do CPF;
 * Requisição para a API ViaCEP;
 * Preenchimento automático do endereço pelo CEP.
+* Adicionar máscara monetária para o campo de preço com o **setMask**.
