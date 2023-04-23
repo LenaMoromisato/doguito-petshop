@@ -110,3 +110,30 @@ function checaCPFRepetido(cpf) {
     })
     return cpfValido
 }
+
+function checaEstruturaCPF(cpf) {
+    const multiplicador = 10;
+
+    return checaDigitoVerificador(cpf, multiplicador);
+}
+
+function confirmaDigito(soma) {
+    return 11 - (soma % 11);
+}
+
+/* verificar 1o dígito verificador
+
+123 456 789 "0"9
+
+let soma = (10 * 1) + (9 * 2) + (8 * 3) ... (2 * 9)
+
+let digitoVerificador = 11 - (soma % 11) */
+
+
+/* verificar 2o dígito verificador
+
+123 456 789 0"9"
+
+let soma = (11 * 1) + (9 * 2) + (8 * 3) ... (2 * 0)
+
+let digitoVerificador = 11 - (soma % 11) */
