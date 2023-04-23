@@ -11,3 +11,5 @@ Conteúdo do curso:
 * Função de validação mais genérica com **input**;
 * Módulos com **type="module"**;
 * Mensagens de erro de validação dos campos com **DOM** e **ValidityState**;
+* Validação do CPF com números repetidos;
+* Cálculo da soma dos dígitos do CPF.
