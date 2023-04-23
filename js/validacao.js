@@ -124,7 +124,7 @@ function checaDigitoVerificador(cpf, multiplicador) {
 
     let multiplicadorInicial = multiplicador;
     let soma = 0;
-    const cpfSemDigitos = cpf.substr(0, multiplicador - 1). split('');
+    const cpfSemDigitos = cpf.substr(0, multiplicador - 1).split('');
     const digitoVerificador = cpf.charAt(multiplicador - 1);
 
     for(let contador = 0; multiplicadorInicial > 1; multiplicadorInicial--) {
@@ -138,7 +138,11 @@ function checaDigitoVerificador(cpf, multiplicador) {
 }
 
 function confirmaDigito(soma) {
-    return 11 - (soma % 11);
+    resto = (soma % 11)
+    if (resto < 2){
+        return 0
+    }
+    return 11 - resto;
 }
 
 /* verificar 1o dígito verificador
